@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    color: white;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .navbar-links a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .app-content {
+    padding: 2rem; /* Adiciona um pouco de espaçamento abaixo da Navbar */
+  }

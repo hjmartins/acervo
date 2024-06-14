@@ -1,0 +1,47 @@
+/* src/pages/HomePage.css */
+
+.home-page {
+  background-color: #f8f9fa; /* Cor de fundo clara */
+  padding: 20px 0;
+}
+
+.shelf-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.search-section input {
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.search-section button {
+  width: 100%;
+  max-width: 200px;
+}
+
+.lists-section {
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.summary-card {
+  margin-bottom: 20px;
+}

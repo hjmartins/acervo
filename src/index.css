@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* src/styles.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #021a5a;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-links a {
+  margin-right: 10px;
+  color: aliceblue;
+}
+.navbar-brand  {
+  margin-left: 5px;
+  color: aliceblue;
+}
+
+
+.book-search,
+.add-book,
+.summary-card,
+.book-list {
+  margin: 20px 0;
+  
+}
+
+.home-page .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-page .search-section {
+  flex: 1;
+  margin-right: 30px;
+  
+}
+
+.home-page .lists-section {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shelf-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.book-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.book-list th,
+.book-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.book-list th {
+  background-color: #f2f2f2;
+}
+
+.book-list tr:nth-child(even) {
+  background-color: #f9f9f9;
 }

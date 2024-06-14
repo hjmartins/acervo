@@ -1,0 +1,39 @@
+/* src/components/BookList.css */
+
+.book-list {
+    margin-top: 20px;
+  }
+  
+  .book-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .book-list th, .book-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .book-title {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .book-title:hover {
+    color: #0056b3;
+  }
+  
+  .details-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 18px;
+  }
+  
+  .details-button:hover {
+    color: #0056b3;
+  }
+  
