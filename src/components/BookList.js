@@ -6,7 +6,7 @@ const BookList = ({ title, books }) => {
 
   const handleBookClick = (bookId) => {
     // Navegar para a página de detalhes do livro com o ID específico
-    navigate(`/books/${bookId}`);
+    navigate(`/book/${bookId}`);
   };
 
   return (
@@ -36,7 +36,7 @@ const BookList = ({ title, books }) => {
               <td>
                 <button
                   className="details-button"
-                  onClick={() => handleBookClick(book._id)}
+                  onClick={() => navigate(`/book/${book._id}`)}
                 >
                   {'>'}
                 </button>
